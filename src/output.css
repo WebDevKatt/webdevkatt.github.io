@@ -546,8 +546,8 @@ video {
 
 #plus{
   z-index: 1;
-  width: 50px;
-  height: 50px;
+  width: 43px;
+  height: 43px;
   top: 75%;
   left: 45%;
   margin: 0;
@@ -558,12 +558,12 @@ video {
 #exploreText{
   position: absolute;
   z-index: 1;
-  top: 43%;
-  left: 9.5%;
+  top: 37%;
+  left: 10%;
   color: white;
   font-family: 'GFS Didot';
   font-style: normal;
-  font-size: 230px;
+  font-size: 200px;
   line-height: 288.74px;
   letter-spacing: 0px;
   text-align: left;
@@ -584,7 +584,7 @@ video {
   color:black;
   font-family: "Lato", sans-serif;
   font-style: normal;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 500;
   text-align: left;
   padding-top: 5%;
@@ -592,7 +592,7 @@ video {
 }
 
 #readMore{
-  margin-top: 5%;
+  margin-top: 8%;
   margin-left: 15%;
 }
 
@@ -601,20 +601,20 @@ video {
   position: absolute;
   color: white;
   font-family: "Lato", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 100;
   line-height: 30px;
   letter-spacing: 0.625px;
   text-align: center;
-  top: 73.4%;
-  left: 13.4%;
+  top: 73%;
+  left: 14%;
 }
 
 #facebook{
   z-index: 1;
-  width: 68px;
-  height: 68px;
-  top: 83%;
+  width: 50px;
+  height: 50px;
+  top: 84%;
   left: 95%;
   margin: 0;
   position: absolute;
@@ -623,8 +623,8 @@ video {
 
 #instagram{
   z-index: 1;
-  width: 68px;
-  height: 68px;
+  width: 50px;
+  height: 50px;
   top: 93%;
   left: 95%;
   margin: 0;
@@ -632,33 +632,24 @@ video {
   transform: translateY(-50%);
 }
 
-/* The Modal (background) */
-
 .modal {
   width: 35%;
-  height: 1000px;
+  height: 200px;
   top:1%;
   left: 12%;
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 1;
-  /* Sit on top */
   background-color: rgba(0,0,0,0);
-  /* Black w/ opacity */
 }
 
 .modal-bulk {
   background-color: #fefefe;
+  width: 450px;
+  height: 550px;
   margin: 10% auto;
   padding-right: 2%;
-  width: 90%;
-  /* Could be more or less, depending on screen size */
-  height: 70%;
 }
-
-/* The Close Button */
 
 .close {
   color: #611818;
