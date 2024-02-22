@@ -545,8 +545,9 @@ video {
 }
 
 #plus{
-  width: 43px;
-  height: 43px;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
   top: 75%;
   left: 45%;
   margin: 0;
@@ -566,6 +567,33 @@ video {
   line-height: 288.74px;
   letter-spacing: 0px;
   text-align: left;
+}
+
+#mExplore{
+  color: #611818;
+  font-family: 'GFS Didot';
+  font-style: normal;
+  font-size: 66px;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 10%;
+  padding-left: 15%;
+}
+
+#mBulkText{
+  color:black;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 15%;
+}
+
+#readMore{
+  margin-top: 5%;
+  margin-left: 15%;
 }
 
 #moreDetailsText{
@@ -604,4 +632,45 @@ video {
   transform: translateY(-50%);
 }
 
-  
+/* The Modal (background) */
+
+.modal {
+  width: 35%;
+  height: 1000px;
+  top:1%;
+  left: 12%;
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  background-color: rgba(0,0,0,0);
+  /* Black w/ opacity */
+}
+
+.modal-bulk {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding-right: 2%;
+  width: 90%;
+  /* Could be more or less, depending on screen size */
+  height: 70%;
+}
+
+/* The Close Button */
+
+.close {
+  color: #611818;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+

@@ -6,24 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
     <link href= "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href="output.css" rel="stylesheet">
+    <link href="Styles/output.css" rel="stylesheet">
     <title>Udundi Coding Challenge</title>  
     
   </head>
   <body>
     <p id="exploreText">Explore</p>
     <p id="moreDetailsText">More Details</p>
-    <img id="facebook" src="Facebook.png" >
-    <img id="instagram" src="Instagram.png" >
+    <img id="facebook" src="Assets/Facebook.png" >
+    <img id="instagram" src="Assets/Instagram.png" >
 
-  <!-- Background image-->
+  <!-- Background images-->
   <div class="flex flex-row">
+    <!-- Color block -->
     <div class="bg-contain bg-no-repeat h-100% w-[550px]" style="background-color:#611818; position: relative;">
-      <button id="plus" class="bg-contain bg-center w-[43px] h-[43px] t-[759px] l-[187px]"><img src="Plus.png" ></button>
+      <button id="plus" class="bg-contain bg-center w-[43px] h-[43px] hover:animate-pulse"><img src="Assets/Plus.png" ></button>
     </div>
-    
-    <div class="bg-[url('Coding-Challenge-Image.png')] w-full h-[879px] bg-cover bg-center "></div>
+  
+    <!--Tree image -->
+    <div class="bg-[url('Assets/Coding-Challenge-Image.png')] w-full h-[879px] bg-cover bg-center "></div>  
+
+    <!-- Modal -->
+    <div id="plusModal" class="modal">
+      <div class="modal-bulk">
+        <span class="close">&times;</span>
+        <div class="flex flex-col">
+            <div>
+              <h1 id="mExplore">Explore</h1>
+            </div>
+            <div>
+              <p id="mBulkText">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p>
+            </div>
+            <div>
+              <button id="readMore"><img src="Assets/Button.png"></button>
+            </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="Scripts/script.js"></script>
   </body>
 </html>
+
+
+
