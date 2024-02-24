@@ -19,14 +19,14 @@
   <div class="flex flex-row">
     <!-- Color block -->
     <div id="colorBlock" class="object-contain">
-      <button id="plus" class="object-contain object-center w-[43px] h-[43px] hover:animate-pulse"><img src="src/Assets/Plus.png" ></button>
+      <button onclick="openModal()" id="plus" class="object-contain object-center w-[43px] h-[43px] hover:animate-pulse"><img src="src/Assets/Plus.png" ></button>
     </div>
   
     <!--Tree image -->
     <div id="treeImg" class="bg-no-repeat bg-center"></div>  
 
     <!-- Modal -->
-    <div id="plusModal" class="modal" onclick="openModal()">
+    <div id="plusModal" class="modal">
       <div class="modal-bulk">
         <span class="mClose" onclick="closeModal()">&times;</span>
         <div class="flex flex-col">
