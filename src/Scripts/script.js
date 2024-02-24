@@ -2,7 +2,7 @@ var modal = document.getElementById("plusModal");
 var plus = document.getElementById("plus");
 var eText = document.getElementById('exploreText');
 var moreDet = document.getElementById('moreDetailsText');
-var closeM = document.getElementsByClassName("close")[0];
+var closeM = document.getElementsByClassName("mClose")[0];
 
 
 plus.onclick() = function() {
