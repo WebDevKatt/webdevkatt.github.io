@@ -5,7 +5,7 @@ var moreDet = document.getElementById('moreDetailsText');
 var closeM = document.getElementsByClassName("close")[0];
 
 
-plus.onclick() = function() {
+plus.click = function() {
   modal.style.display = "block";
     if (eText.style.display == 'none') {
         eText.style.display = 'block';
@@ -24,9 +24,8 @@ plus.onclick() = function() {
     }
 }
 
-
 // When the user clicks on <span> (x), close the modal
-closeM.onclick() = function() {
+closeM.click = function() {
   modal.style.display = "none";
   if (eText.style.display == 'none') {
     eText.style.display = 'block';
