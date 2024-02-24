@@ -556,18 +556,19 @@ video {
 #colorBlock{
   background-color:#611818;
   position: absolute;
-  width: 20%;
+  width: 22.5%;
   height: 100%;
   justify-self: right;
 }
 
 #plus{
   z-index: 1;
-  width: 43px;
-  height: 43px;
+  width: 20%;
+  height: auto;
+  /* min-width: 5px;
+  min-height: auto; */
   top: 75%;
   left: 45%;
-  margin: 0;
   position: absolute;
   transform: translateY(-50%);
 }
@@ -585,40 +586,28 @@ video {
   text-align: left;
 }
 
-#mExplore{
-  color: #611818;
-  font-family: 'GFS Didot';
-  font-style: normal;
-  font-size: 66px;
-  font-weight: 500;
-  text-align: left;
-  padding-top: 10%;
-  padding-left: 15%;
-}
-
 #moreDetailsText{
   z-index: 1;
   position: absolute;
   color: white;
   font-family: "Lato", sans-serif;
-  font-size: 20px;
+  font-size: 1.2vw;
   font-weight: 100;
   line-height: 30px;
   letter-spacing: 0.625px;
   text-align: center;
-  top: 73%;
-  left: 14%;
+  bottom: 23%;
+  left: 14.5%;
 }
 
 #facebook{
   z-index: 1;
   width: 3.2%;
   height: auto;
-  min-width: 50px;
-  min-height: 50px;
+  min-width: 40px;
+  min-height: 40px;
   top: 84%;
-  left: 95%;
-  right: .1%;
+  right:1.2%;
   position: absolute;
   transform: translateY(-50%);
 }
@@ -627,11 +616,10 @@ video {
   z-index: 1;
   width: 3.5%;
   height: auto;
-  min-width: 50px;
-  min-height: 50px;
+  min-width: 40px;
+  min-height: 40px;
   top: 93%;
-  left: 95%;
-  right: 1px;
+  right:1%;
   position: absolute;
   transform: translateY(-50%);
 }
@@ -655,6 +643,17 @@ video {
   margin: 10% auto;
   padding-right: 2%;
   overflow-y: auto;
+}
+
+#mExplore{
+  color: #611818;
+  font-family: 'GFS Didot';
+  font-style: normal;
+  font-size: 66px;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 10%;
+  padding-left: 15%;
 }
 
 #mBulkText{
