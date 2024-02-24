@@ -8,7 +8,6 @@
     <link href= "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="src/output.css" rel="stylesheet">
     <title>Udundi Coding Challenge</title>  
-    
   </head>
   <body>
     <p id="exploreText">Explore</p>
@@ -19,17 +18,17 @@
   <!-- Background images-->
   <div class="flex flex-row">
     <!-- Color block -->
-    <div class="bg-contain bg-no-repeat h-100% w-[30%]" style="background-color:#611818; position: relative;">
-      <button id="plus" class="bg-contain bg-center w-[43px] h-[43px] hover:animate-pulse"><img src="src/Assets/Plus.png" ></button>
+    <div id="colorBlock" class="object-contain">
+      <button id="plus" class="object-contain object-center w-[43px] h-[43px] hover:animate-pulse"><img src="src/Assets/Plus.png" ></button>
     </div>
   
     <!--Tree image -->
-    <div class="bg-[url('src/Assets/Coding-Challenge-Image.png')] w-full h-[703px] bg-cover bg-center"></div>  
+    <div id="treeImg" class="bg-no-repeat bg-center"></div>  
 
     <!-- Modal -->
     <div id="plusModal" class="modal">
       <div class="modal-bulk">
-        <span class="close">&times;</span>
+        <span class="mClose">&times;</span>
         <div class="flex flex-col">
             <div>
               <h1 id="mExplore">Explore</h1>
@@ -45,9 +44,8 @@
     </div>
 
   </div>
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="src/Scripts/script.js"></script>
-  </body>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="src/Scripts/script.js"></script>
   </body>
 </html>
 

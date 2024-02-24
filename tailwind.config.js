@@ -2,11 +2,20 @@
 module.exports = {
   content: ["C:/Users/Katt/Desktop/WebDevKatt.github.io.{html,js}"],
   theme: {
-    extend: {
-      colors:{
-        'brown': " #611818",
+    theme: {
+      screens: {
+        'phone': '200px',
+
+        'tablet': '640px',
+        // => @media (min-width: 640px) { ... }
+  
+        'laptop': '1024px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'desktop': '1280px',
+        // => @media (min-width: 1280px) { ... }
       },
-    }
   },
   plugins: [],
+}
 }
